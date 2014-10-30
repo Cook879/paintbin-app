@@ -1,0 +1,44 @@
+﻿Build started 26/10/2014 13:54:27.
+     1>Project "c:\Users\Richard\Desktop\Paintbin\Paintbin\Paintbin.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ic:\Users\Richard\Desktop\Paintbin\Paintbin\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D PSAPI_VERSION=2 /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /D _UITHREADCTXT_SUPPORT=0 /D _UNICODE /D UNICODE /D _DEBUG /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\Paintbin.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ic:\Users\Richard\Desktop\Paintbin\Paintbin\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D PSAPI_VERSION=2 /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /D _UITHREADCTXT_SUPPORT=0 /D _UNICODE /D UNICODE /D _DEBUG /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\Paintbin.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp Common\NavigationHelper.cpp Common\RelayCommand.cpp Common\SuspensionManager.cpp JoinPage.xaml.cpp MainPage.xaml.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         NavigationHelper.cpp
+         RelayCommand.cpp
+         SuspensionManager.cpp
+         JoinPage.xaml.cpp
+         MainPage.xaml.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.exe" /INCREMENTAL /NOLOGO WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\NavigationHelper.obj
+         Debug\RelayCommand.obj
+         Debug\SuspensionManager.obj
+         Debug\JoinPage.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ic:\Users\Richard\Desktop\Paintbin\Paintbin\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D PSAPI_VERSION=2 /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /D _UITHREADCTXT_SUPPORT=0 /D _UNICODE /D UNICODE /D _DEBUG /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\Paintbin.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.exe" /INCREMENTAL /NOLOGO WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\NavigationHelper.obj
+         Debug\RelayCommand.obj
+         Debug\SuspensionManager.obj
+         Debug\JoinPage.xaml.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.lib and object c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.exp
+         Paintbin.vcxproj -> c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\Paintbin.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\\bin\x86\MakePri.exe New -ProjectRoot c:\Users\Richard\Desktop\Paintbin\Paintbin\ -ConfigXml Debug\priconfig.xml -OutputFile c:\Users\Richard\Desktop\Paintbin\Debug\Paintbin\resources.pri -ExtensionDll "C:\Program Files (x86)\Windows Phone Kits\8.1\\bin\x86\MrmEnvironmentExtDl.dll" -IndexName f14c9363-cdb4-4c56-8da1-bc9843b6ed82 -Verbose -Overwrite  
+     1>Done Building Project "c:\Users\Richard\Desktop\Paintbin\Paintbin\Paintbin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.37
